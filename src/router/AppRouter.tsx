@@ -1,7 +1,8 @@
-import {createBrowserRouter,  RouterProvider } from "react-router-dom";
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { publicRoutes } from "../routes";
 import ErrorPage from "../error/ErrorPage";
-import MainLayout from "../layout/MainLayout";
+import MainLayout from "../feature/layout/MainLayout";
 
 export const AppRouter: React.FC = () => {
     const router = createBrowserRouter([

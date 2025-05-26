@@ -1,3 +1,5 @@
+import animate from 'tailwindcss-animate'
+
 export default {
     content: [
       "./index.html",
@@ -7,6 +9,6 @@ export default {
       extend: {},
     },
     plugins: [
-      require('tailwindcss-animate'),
+      animate,
     ],
   }
