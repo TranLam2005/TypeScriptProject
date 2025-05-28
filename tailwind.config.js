@@ -1,5 +1,5 @@
 import animate from 'tailwindcss-animate'
-
+import nth from 'tailwindcss-nth-child'
 export default {
     content: [
       "./index.html",
@@ -10,5 +10,6 @@ export default {
     },
     plugins: [
       animate,
+      nth,
     ],
   }

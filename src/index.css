@@ -150,3 +150,14 @@
 .smooth-tooltip[data-state="closed"] {
   animation: tooltip-exit 150ms ease-in-out;
 }
+
+
+@layer utilities {
+  .nth-custom\:border-b-0:nth-child(n+10) {
+    @apply border-b-0;
+  }
+
+  .nth-custom2\:border-r-0:nth-child(10n) {
+    @apply border-r-0;
+  }
+}
